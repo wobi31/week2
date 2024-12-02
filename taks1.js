@@ -10,7 +10,7 @@ function fetchData(status){
   })
 }
 
-fetchData(false)
+fetchData(true)
 .then((result) => {
   console.log(result)
 }).catch((err) => {

@@ -12,7 +12,7 @@ const cekangBarang = (Barang) => {
   });
 };
 // 
-cekangBarang("monitor").then((ress) => {
+cekangBarang("baju").then((ress) => {
   console.log(ress);
 }).catch((err) => {
   console.log(err)
