@@ -30,4 +30,3 @@ function Reverseword(string){
   return string.split(" ").reverse().join(' ');
   }
   console.log(Reverseword('Saya Belajar Javascript'))
-  
